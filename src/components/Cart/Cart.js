@@ -1,8 +1,10 @@
-import React from 'react';
+import React from "react";
+import RenderCart from 'components/Cart/RenderCart'
 
 export default function Cart() {
-
-return (
-    <h1> Cart </h1>
-)
+  return (
+    <>
+      <RenderCart />
+    </>
+  );
 }
