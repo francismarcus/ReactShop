@@ -3,7 +3,7 @@ import RenderCart from 'components/Cart/RenderCart'
 import { Store } from 'store';
 
 export default function Cart() {
-    const { state, dispatch } = useContext(Store);
+    const { state } = useContext(Store);
     const Price = state.map(product => {
         return product.price;
         });
